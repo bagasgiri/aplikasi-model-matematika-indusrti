@@ -1,6 +1,5 @@
 import streamlit as st
 import numpy as np
-from scipy.optimize import linprog
 from math import sqrt
 import matplotlib.pyplot as plt
 
