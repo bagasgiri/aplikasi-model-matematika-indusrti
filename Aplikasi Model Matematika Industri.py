@@ -163,4 +163,3 @@ elif "Regresi" in menu:
         plt.xlabel("Bulan")
         plt.ylabel("Permintaan")
         plt.legend()
-       
