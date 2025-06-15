@@ -1,5 +1,6 @@
 import streamlit as st
 import numpy as np
+from scipy.optimize import linprog
 from math import sqrt
 import matplotlib.pyplot as plt
 
@@ -162,3 +163,4 @@ elif "Regresi" in menu:
         plt.xlabel("Bulan")
         plt.ylabel("Permintaan")
         plt.legend()
+        st.pyplot(plt)
